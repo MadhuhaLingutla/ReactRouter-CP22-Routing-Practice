@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-image {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.logo-text {
+  font-size: 30px;
+  color: #12022f;
+}
+.navigation-container {
+  display: flex;
+  align-items: center;
+}
+.navigation-button {
+  font-size: 30px;
+  color: #12022f;
+  font-weight: bold;
+  margin: 20px;
+  text-decoration: none;
+}
